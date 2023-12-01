@@ -7,9 +7,11 @@ class Program
 
     }
 
-    private void PrintWelcome(string message)
+    private void PrintWelcome(string? message)
     {
-        Console.WriteLine(message);
+        
+        Console.WriteLine(message + "hello");
+
     }
 }
 
