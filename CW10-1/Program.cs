@@ -9,8 +9,9 @@ class Program
 
     private void PrintWelcome(string? message)
     {
-        
-        Console.WriteLine(message + "hello");
+
+        if (message.Length < 5) Console.WriteLine("INVALID");
+        else Console.WriteLine($"*{message}*");
 
     }
 }
